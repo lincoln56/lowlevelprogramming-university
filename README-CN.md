@@ -34,53 +34,52 @@
 * 计算机体系结构
 * 操作系统
 
-You can find many good classes on online universities, for instance, Coursera.org and edx.org.
-Theory is theory. I don't think you should get A+ in the class, just understand the big picture in the class.
-You'll get better and better with experience.
+你可以在很多的在线大学找到很多好的学习课程,下面是一个可以参考的列表,Coursera.org,edx.org.
+理论归理论.我并不喜欢在你在课程中获得A+,但是理解这个课程的大框是有意义的,在实际的项目中做一些东西,你会变得越来越好的.
 
-## Languages
+## 语言
 
-### Assembly
+### 汇编
 
-* [8086 assembly programming with emu8086](https://github.com/gurugio/book_assembly_8086)
-  * basic concepts of CPU and computer architecture
-  * basic concepts of C programming language
-* [64bit assembly programming(translation in progress)](https://github.com/gurugio/book_assembly_64bit)
-  * basic concepts of modern CPU and computer architecture
-  * basic concepts of disassembling and debugging of C code
+* [8086汇编编程与emu8086](https://github.com/gurugio/book_assembly_8086)
+  * CPU和计算机体系结构的基本概念
+  * C编程语言的基本概念
+* [64bit汇编编程(translation in progress)](https://github.com/gurugio/book_assembly_64bit)
+  * 现代CPU和计算机架构的基本概念
+  * C代码的拆解和调试的基本概念
   * _need help for translation_
 
-### C language
+### C语言
 
-There is no short-cut. Just read the entire book and solve all the exercises.
+没有捷径。 只需阅读整本书并解决所有的练习
 
 * [C Programming: A Modern Approach, 2nd Edition](https://www.amazon.com/C-Programming-Modern-Approach-2nd/dp/0393979504)
 * [The C Programming Language 2nd Edition](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628/ref=pd_sbs_14_t_0?_encoding=UTF8&psc=1&refRID=60R1D2CHBA8DHYT6JNMN)
 * [Modern C](http://icube-icps.unistra.fr/img_auth.php/d/db/ModernC.pdf)
-  * For new standard of C
+  * 对于C的新标准
 * [Is Parallel Programming Hard, And, If So, What Can You Do About It?](https://www.kernel.org/pub/linux/kernel/people/paulmck/perfbook/perfbook.html)
-  * raw implementation of synchronization with C
-  * Essential for large scale C programming (especially for kernel programming)
+  * 原始实现与C同步
+  * 大规模C编程（特别是内核编程）的基本要素
 * [C programming challenge?](https://github.com/gurugio/lowlevelprogramming-university/blob/master/c-language-challenge.md)
-  * plan for service like [The Eudyptula Challenge](http://eudyptula-challenge.org/)
-  * Just an idea at the moment..
-  * If you can make all tiny projects in that page, you would be good to start big projects.
+  * 计划做成类似 [The Eudyptula Challenge](http://eudyptula-challenge.org/)
+  * 目前还仅仅是个想法..
+  * 如果您可以在该页面中进行所有小项目，那么您将很乐意启动大型项目。
 
-## Applications
+## 应用程序
 
-### Hardware && Firmware
+### 硬件＆固件
 
-If you want to be an embedded systems engineer, it would be best to start from a simple hardware kit, rather than starting with the latest ARM chipset.
+如果你想成为一名嵌入式系统工程师,最好是从一个简单的硬件开始,而不是从一个最新的ARM硬件.
 
 * [Arduino Start Kit](https://www.arduino.cc/)
-  * There are various series of Arduino but "Arduino Start Kit" has the most simple processor(Atmega328P) and guide book
-  * Atmega328P has 8bit core that is the good to start "Digital circuit design" and "Firware development".
-  * You don't need to know how to draw schematics and layout, and assemble the chips.
-  * But you need to know how to read schematics and understand how the chips are connected.
-  * Firmware developers should be able to read the schematics and figure out how to send data to the target device.
-  * Follow the guide book!
+   * 有各种系列的Arduino，但“Arduino Start Kit”具有最简单的处理器（Atmega328P）和指导书
+   * Atmega328P具有8位内核，是开始“数字电路设计”和“Firware开发”的好选择。
+   * 您不需要知道如何绘制原理图和布局，并组装芯片。
+   * 但是您需要知道如何阅读原理图并了解芯片的连接方式。
+   * 固件开发人员应该能够阅读原理图，并找出如何将数据发送到目标设备。
+   * 按照指导书！
 * [8086 manual](https://edge.edx.org/c4x/BITSPilani/EEE231/asset/8086_family_Users_Manual_1_.pdf)
-  * If you're a beginner to x86 architecture, 8086 is also very good guide for processor architecture and 80x86 assembly
+  * 如果您是x86架构的初学者，8086也是处理器架构和80x86程序集的非常好的指南
 * [80386 manual](http://css.csail.mit.edu/6.858/2015/readings/i386.pdf)
   * Best guide for protected mode and paging machanism of 80x86 processor
   * Web version: https://pdos.csail.mit.edu/6.828/2011/readings/i386/toc.htm
