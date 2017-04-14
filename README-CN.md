@@ -82,93 +82,94 @@
 * [8086 manual](https://edge.edx.org/c4x/BITSPilani/EEE231/asset/8086_family_Users_Manual_1_.pdf)
   * 如果您是x86架构的初学者，8086也是处理器架构和80x86程序集的非常好的指南
 * [80386 manual](http://css.csail.mit.edu/6.858/2015/readings/i386.pdf)
-  * Best guide for protected mode and paging machanism of 80x86 processor
-  * Web version: https://pdos.csail.mit.edu/6.828/2011/readings/i386/toc.htm
+  * 80x86处理器的保护模式和分页机制的最佳指南
+  * Web版本: https://pdos.csail.mit.edu/6.828/2011/readings/i386/toc.htm
 
-At this point, you should be good to start the latest ARM or x86 processor.
+完成以上的这些,您应该很乐意启动最新的ARM或x86处理器了
+
 * https://www.raspberrypi.org/
 * https://beagleboard.org/
 * https://www.arduino.cc/en/ArduinoCertified/IntelEdison
 
-For example, the Raspberry Pi board has a Cortex-A53 Processor that supports a 64-bit instruction set.
-This allows you to experience a modern processor architecture with rPi.
-Yes, you can buy it... but... what are you going to do with it?
-If you have no target project, you would be likely to throw the board into a drawer and forget it like other gadgets you may have bought before.
+例如，Raspberry Pi板具有支持64位指令集的Cortex-A53处理器。
+这允许您体验具有rPi的现代处理器架构。
+是的，你可以买它，但是你要怎么做？
+如果您没有目标项目，您可能会将该板放入抽屉中，并将其忘记为您之前购买过的其他小工具。
 
-So, I recommend one project for you.
-* [Making your own kernel](http://wiki.osdev.org/Getting_Started)
-  * Good references: https://www.reddit.com/r/osdev/
+所以，我为你推荐一个项目。
+* [制作自己的内核](http://wiki.osdev.org/Getting_Started)
+  * 参考案例: https://www.reddit.com/r/osdev/
 
-I've made [a toy kernel](https://github.com/gurugio/caos) that supports 64bit long mode, paging and very simple context switching. Making a toy kernel is good way to understand modern computer architecture and hardware control.
+我制作了一个支持64位长模式，分页和非常简单的上下文切换的[玩具内核]（https://github.com/gurugio/caos）。 制作玩具内核是了解现代计算机架构和硬件控制的好方法。
 
-In fact, you have already the latest processor and the latest hardware devices.
-Your laptop! Your desktop! You already have all to start!
-You don't need to buy anything.
-The qemu emulator can emulate the latest ARM processors and Intel processors.
-So everything you need is already on hand.
-There are so many toy kernel and documents you can refer to.
-Just install qemu emulator and make a tiny kernel that just boots and turns on paging, and prints some messages.
+实际上，您已经有最新的处理器和最新的硬件设备。
+你的笔记本电脑！ 你的桌面！ 你已经有了所有的开始！
+你不需要买任何东西。
+qemu仿真器可以模拟最新的ARM处理器和Intel处理器。
+所以你需要的一切已经在手。
+有很多玩具内核和文件可以参考。
+只需安装qemu模拟器，并制作一个小型内核，只需启动并打开分页，并打印一些消息。
 
-Other toy kernels:
+其他的玩具内核:
 * https://littleosbook.github.io/
 * https://tuhdo.github.io/os01/
 
-### Linux kernel and device driver
+### Linux内核和设备驱动
 
-You don't need to make a complete operating system.
-Join the Linux community and participate in development.
+您不需要制作完整的操作系统。
+加入Linux社区并参与开发。
 
-#### Read carefully
+#### 仔细阅读
 
-* Books: Read followings in order
+* 参考资料: 请按顺序阅读
   * [The Design of the Unix Operating System](https://www.amazon.com/Design-UNIX-Operating-System/dp/0132017997)
-    * The basic concepts of Unix are applied into all operating system.
-    * This book is very good to get the concepts of operating system.
+    * Unix的基本概念适用于所有操作系统.
+    * 这本书很好的得到了操作系统的概念.
   * [Linux Device Drivers](https://www.amazon.com/Linux-Device-Drivers-Jonathan-Corbet/dp/0596005903/ref=sr_1_4?ie=UTF8&qid=1483650712&sr=8-4&keywords=understanding+linux+kernel)
     * Make all examples for yourself
   * [Linux Kernel Development](https://www.amazon.com/Linux-Kernel-Development-Robert-Love/dp/0672329468/ref=sr_1_2?ie=UTF8&qid=1483650712&sr=8-2&keywords=understanding+linux+kernel)
-    * Understand the design of Linux Kernel
+    * 了解Linux内核的设计
   * [Understanding the Linux Kernel](https://www.amazon.com/Understanding-Linux-Kernel-Third-Daniel/dp/0596005652/ref=sr_1_1?ie=UTF8&qid=1483650712&sr=8-1&keywords=understanding+linux+kernel)
-    * Read this book and the kernel source v2.6 at the same time
-    * Never start with the latest version, v2.6 is enough!
-    * Use qemu and gdb to run the kernel source line by line
+    * 同时阅读本书和内核源码v2.6
+    * 不要从最新版本开始，v2.6就够了！
+    * 使用qemu和gdb逐行运行内核源代码
       * http://stackoverflow.com/questions/11408041/how-to-debug-the-linux-kernel-with-gdb-and-qemu
       * https://gurugio.kldp.net/wiki/wiki.php/howto_debug_kernel
-    * Use busybox to make the simplest filesystem that takes only 1-second to boot
+    * 使用busybox来做最简单的文件系统，只需要1秒钟即可引导
       * https://gurugio.kldp.net/wiki/wiki.php/qemu_kernel
 * [The Eudyptula Challenge](http://eudyptula-challenge.org/)
-  * This is like an awesome private teacher who guide you what to do.
-  * If you don't know what to do, just start this.
+  * 这就像一个非常棒的私人老师，指导你做什么。
+  * 如果你不知道该怎么做，那就开始吧。
 * [Block layer and device driver(translation in progress)](https://github.com/gurugio/book_linuxkernel_blockdrv)
-  * start from a simple block device driver example (Ramdisk) with multi-queue mode
-  * go forward to block layer
+  * 从具有多队列模式的简单块设备驱动程序示例（Ramdisk）开始
+  * 前进到阻止(block)层
   * _need help for translation_
 * [md driver of Linux kernel(in progress)](https://github.com/gurugio/book_linuxkernel_md)
-  * how mdadm tool works and how it calls md driver
-  * how md driver works
+  * mdadm工具如何工作以及如何调用md驱动程序
+  * md驱动程序的工作原理
   * _need help for translation_
 
-#### References
+#### 参考文献
 
-Check when you need something
+如果你需要一些支持的时候,你可以查阅下面的资料
 
 * [Free-electrons homepage](http://free-electrons.com/docs/)
-  * many slide files introducing good topics, specially ARM-linux
+  * 许多幻灯片文件引入了很好的话题，特别是ARM-linux
 * [Julia Evans's posting: You can be a kernel hacker!](http://jvns.ca/blog/2014/09/18/you-can-be-a-kernel-hacker/)
-  * guide to start kernel programming
+  * 指导启动内核编程
 
-## Future of low-level programming
+## 未来的底层编程
 
-I do not know the future, but I keep my eye on RUST.
+我不知道未来，但我注意到了RUST.
 * https://hacks.mozilla.org/2016/11/rust-and-the-future-of-systems-programming/
 
-If I could have one week free and alone, I would learn RUST.
-That is because RUST is the latest language with which I can develop Linux device driver.
+如果我有一个星期的时间可以独自一人，我会学习RUST.
+这是因为RUST是我可以开发Linux设备驱动程序的最新语言.
 
-IoT is new trend, so it's worth to check what OSs are for IoT.
-ARM, Samsung and some companies has their own realtime OS but sadly many of them are close source.
-But Linux Foundation also has a solution: Zephyr
+IoT是新的趋势，所以值得检查什么操作系统支持IoT.
+ARM，三星和一些公司都有自己的实时操作系统，但很遗憾，其中很多都是闭源.
+但Linux基金会也有一个解决方案: Zephyr
 * https://www.zephyrproject.org/
 
-Typical cloud server has so many layers, for instance, host OS, kvm driver, qemu process, guest OS and service application. So container has been developed to provide light virtualization. In near future, a new concept of OS, so-called library OS or Unikernel, would be replace the typical stack of SW for virtualization.
+典型的云服务器有很多层次，例如主机操作系统，kvm驱动程序，qemu进程，客户操作系统和服务应用程序。 因此，容器已经开发出来提供轻型虚拟化。 在不久的将来，一个新的操作系统概念，即所谓的库OS或Unikernel，将替代典型的SW虚拟堆栈.
 * http://unikernel.org/
