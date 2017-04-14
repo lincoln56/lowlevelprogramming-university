@@ -1,26 +1,30 @@
-# Low-Level Programming University
+# 底层编程大学
 
-## What is it?
+## 这是什么?
 
-This page is for beginners who want to be low-level programmers.
+这个项目为初学者提供一种学习路径,告诉初学者如何成为底层程序员.
 
-I'm inspired by [google-interview-university](https://github.com/jwasham/google-interview-university). I'd like to share my experience and show a roadmap to becoming a low-level programmer because I have found that these skills are not as common as they once were. In addition, many students and beginners ask me how they could become low-level programmers and Linux kernel engineers.
+作者是受[Google面试大学](https://github.com/jwasham/google-interview-university)的启发,作者会分享一些自己的经验,并提供一个学习的路径图(Roadmap),因为作者发现,随着技术的进步,成为一个底层程序员已经不像之前那么简单了.另外,很多学生和初学者都会反复的问我,如何成为底层程序员和Linux内核工程师.
 
-I have over 10 years of experience as a low-level programmer:
-* 80x86 Assembly programming
-* Hardware device with Atmel chip and firmware
-* C language system programming for Unix
-* Device driver in Linux
-* Linux kernel: page allocation
-* Linux kernel: block device driver and md module
+作为底层程序员,我拥有10年的经验:
+* 80x86 汇编
+* 硬件设备与Atmel芯片和固件
+* Unix系统下的C语言编程
+* Linux设备驱动程序
+* Linux内核:页面分配
+* Linux内核:块设备驱动和md模块
 
-## What Is the Low-Level?
 
-I classify low-level programming as programming that is very close to the machine, using a lower level programming language like C or assembly. This is in contrast to higher-level programming, typical of user-space applications, using high level languages (e.g. Python, Java).
-* [Wikipedia: Low-level programming language](https://en.wikipedia.org/wiki/Low-level_programming_language)
+## 什么是底层编程?
 
-Yes, systems programming is a very close concept to low-level programming. This page includes the hardware design and firmware development that is not included in system programming.
-* [Wikipedia: System programming](https://en.wikipedia.org/wiki/System_programming)
+我将底层编程定义为,使用底层编程语言,例如C语言或汇编进行更加靠近机器的编程.这个是与高级别编程语言对比而言的,通常是用户层面的应用程序,也一般会采用高级别的编程语言,比喻说,Python,Java.
+
+* [Wikipedia: 底层编程语言](https://en.wikipedia.org/wiki/Low-level_programming_language)
+
+同时注意到,系统编程与底层编程语言很相似,该页面包括系统编程中未包含的硬件设计和固件开发。
+
+* [Wikipedia: 系统编程](https://en.wikipedia.org/wiki/System_programming)
+
 
 Finally, this page includes topics ranging from hardware components to the Linux kernel. That is a huge range of layers. A one page document can never cover the details of all the layers, so the aim of this document is to serve as a starting point for low-level programming.
 
