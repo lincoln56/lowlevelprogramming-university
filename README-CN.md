@@ -25,14 +25,14 @@
 
 * [Wikipedia: 系统编程](https://en.wikipedia.org/wiki/System_programming)
 
+最后，此页面包括从硬件组件到Linux内核的主题。 这是一个非常大的范围,一页文档永远不会覆盖所有层的细节，因此本文档的目的是作为低级编程的起点。
 
-Finally, this page includes topics ranging from hardware components to the Linux kernel. That is a huge range of layers. A one page document can never cover the details of all the layers, so the aim of this document is to serve as a starting point for low-level programming.
+## 理论基础
 
-## Theory
+底层编程需要2个基础的背景知识:
 
-There are two background theories to low-level programming:
-* Computer Architecture
-* Operating Systems
+* 计算机体系结构
+* 操作系统
 
 You can find many good classes on online universities, for instance, Coursera.org and edx.org.
 Theory is theory. I don't think you should get A+ in the class, just understand the big picture in the class.
