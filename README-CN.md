@@ -73,11 +73,17 @@
 
 * [Arduino Start Kit](https://www.arduino.cc/)
    * 有各种系列的Arduino，但“Arduino Start Kit”具有最简单的处理器（Atmega328P）和指导书
+   
    * Atmega328P具有8位内核，是开始“数字电路设计”和“Firware开发”的好选择。
+   
    * 您不需要知道如何绘制原理图和布局，并组装芯片。
+   
    * 但是您需要知道如何阅读原理图并了解芯片的连接方式。
+   
    * 固件开发人员应该能够阅读原理图，并找出如何将数据发送到目标设备。
+   
    * 按照指导书！
+   
 * [8086 manual](https://edge.edx.org/c4x/BITSPilani/EEE231/asset/8086_family_Users_Manual_1_.pdf)
   * 如果您是x86架构的初学者，8086也是处理器架构和80x86程序集的非常好的指南
 * [80386 manual](http://css.csail.mit.edu/6.858/2015/readings/i386.pdf)
